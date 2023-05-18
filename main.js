@@ -12,7 +12,6 @@ const contacts = require('./data.json');
 //You can put your solutions after each comment below:
 
 //1. an array that contains all of the contacts that work at INSECTUS
-const contacts = contacts.forEach();
 //2. an array all of the contacts, with only the name property
 const contactNames = contacts.map(contact => contact.name);
 //3. an array of all of the contacts over the age of 50
